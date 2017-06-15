@@ -32,6 +32,9 @@ a{
 
 .content{
 	display:flex;
+	font-family:Georgia;
+	font-size:17px;
+	color:black;
 }
 
 .column{
@@ -50,4 +53,35 @@ a{
 
 .column.small{
 	width:240px;
+}
+
+.imagetext{
+	font-family:Georgia;
+	font-weight:bold;
+	font-size:30px;
+	color:white;
+}
+
+.wine.image-content{
+	background-image: url("../img/wine.png");
+}
+
+.fall.image-content{
+	background-image: url("../img/girl.png");
+}
+
+.camera.image-content{
+	background-image: url("../img/photoman.png");
+}
+
+.cat.image-content{
+	background-image: url("../img/cat.png");
+}
+
+.image-content{
+	font-family:Georgia;
+	font-weight:bold;
+	color:white;
+	font-size:30px;
+	height:300px;
 }
